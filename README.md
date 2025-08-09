@@ -16,7 +16,7 @@ Use ```gdisk```
 
 ```# gdisk /dev/sda```
 
-Press ```n``` to make a new partition.
+Press ```n``` to make a new and every partition below.
 
 EFI:  
    - [Enter] 2x
