@@ -1,4 +1,4 @@
-# Arch UEFI Install - 2025
+# Arch UEFI Install - July 2025
 
 ## Table of Contents
    - Make Partitions
