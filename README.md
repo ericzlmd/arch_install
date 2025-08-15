@@ -82,6 +82,10 @@ SWAP:
 
 ```mount /dev/sda4 /mnt/home```
 
+### Select Mirrors
+
+```reflector --country '[your country]' --sort rate --latest 5 >> /etc/pacman.d/mirrorlist```
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
