@@ -63,28 +63,28 @@ SWAP:
 
 EFI:
 
-```mkdir /boot/efi```
+```# mkdir /boot/efi```
 
-```mount /dev/sda1 /boot/efi```
+```# mount /dev/sda1 /boot/efi```
 
 
 SWAP:
 
-```swapon /dev/sda2```
+```# swapon /dev/sda2```
 
 /root:
 
-```mount /dev/sda3 /mnt```
+```# mount /dev/sda3 /mnt```
 
 /home:
 
-```mkdir /mnt/home```
+```# mkdir /mnt/home```
 
-```mount /dev/sda4 /mnt/home```
+```# mount /dev/sda4 /mnt/home```
 
 ### Select Mirrors
 
-```reflector --country '[your country]' --sort rate --latest 5 >> /etc/pacman.d/mirrorlist```
+```# reflector --country '[your country]' --sort rate --latest 5 >> /etc/pacman.d/mirrorlist```
 
 
 ### Install base & essential packages
