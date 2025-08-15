@@ -86,6 +86,11 @@ SWAP:
 
 ```reflector --country '[your country]' --sort rate --latest 5 >> /etc/pacman.d/mirrorlist```
 
+
+### Install base & essential packages
+
+```# pacstrap -K /mnt base linux linux-firmware git base-devel vi neovim efibootmgr```
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
