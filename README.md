@@ -40,6 +40,10 @@ SWAP:
 
 Enter ```p``` to print all the partition made. Then ```w``` to write the partition on disk permanently.
 
+### Make Filesystems
+
+### Mount File Systems
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
