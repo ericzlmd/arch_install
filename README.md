@@ -2,7 +2,7 @@
 
 ## Table of Contents
    - Make Partitions
-   - Make File Filesystems
+   - Format Partitions
    - Mount File Systems
    - Select Mirrors
    - Install Essential Packages
@@ -40,7 +40,24 @@ SWAP:
 
 Enter ```p``` to print all the partition made. Then ```w``` to write the partition on disk permanently.
 
-### Make Filesystems
+### Format Partitions
+
+EFI:
+
+```# mkfs.fat -F 32 /dev/sda1```
+
+SWAP:
+
+```# mkswap /dev/sda2```
+
+/root
+
+```# mkfs.ext4 /dev/sda3```
+
+/home
+
+```# mkfs.ext4 /dev/sda4```
+
 
 ### Mount File Systems
 
