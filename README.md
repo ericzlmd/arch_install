@@ -61,6 +61,27 @@ SWAP:
 
 ### Mount File Systems
 
+EFI:
+
+```mkdir /boot/efi```
+
+```mount /dev/sda1 /boot/efi```
+
+
+SWAP:
+
+```swapon /dev/sda2```
+
+/root:
+
+```mount /dev/sda3 /mnt```
+
+/home:
+
+```mkdir /mnt/home```
+
+```mount /dev/sda4 /mnt/home```
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
