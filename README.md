@@ -89,7 +89,15 @@ SWAP:
 
 ### Install base & essential packages
 
+This section is mostly when you'll diverge and add your own most use apps, desktop environment, etc. The following below is mostly standard needed for other apps to be installed.
+
 ```# pacstrap -K /mnt base linux linux-firmware git base-devel vi neovim efibootmgr```
+
+### Generate fstab
+
+### Change root
+
+```# arch-chroot /mnt```
 
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
