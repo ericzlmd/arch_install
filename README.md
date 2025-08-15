@@ -95,6 +95,10 @@ This section is mostly when you'll diverge and add your own most use apps, deskt
 
 ### Generate fstab
 
+Make sure that the entries on ```lsblk``` reflects what's appended on ``` cat/mnt/etc/fstab```. Mount/re-mount partitions and edit manually if necessary.
+
+```# genfstab -U /mnt >> /mnt/etc/fstab```
+
 ### Change root
 
 ```# arch-chroot /mnt```
