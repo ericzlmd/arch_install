@@ -91,7 +91,7 @@ SWAP:
 
 This section is mostly when you'll diverge and add your own most use apps, desktop environment, etc. The following below is mostly standard needed for other apps to be installed.
 
-```# pacstrap -K /mnt base linux linux-firmware git base-devel vi neovim efibootmgr```
+```# pacstrap -K /mnt base linux linux-firmware git base-devel networkmanager vi neovim efibootmgr```
 
 ### Generate fstab
 
