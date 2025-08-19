@@ -7,6 +7,7 @@
    - Select Mirrors
    - Install Essential Packages
    - Generate fstab 
+   - Change root
    - Set timezone
    - Set localization 
 
