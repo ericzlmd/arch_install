@@ -12,6 +12,7 @@
    - Set localization 
    - Set hostname
    - Set root/user password
+   - Enable system services on boot
 
 ### Make Paritions
 
