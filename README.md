@@ -156,6 +156,14 @@ Enter new password twice:
 
 ```# passwd [username]```
 
+### Reboot
+
+```# exit```
+
+```# umount -R /mnt```
+
+```# reboot```
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
