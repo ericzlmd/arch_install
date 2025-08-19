@@ -110,6 +110,24 @@ Make sure that the entries on ```lsblk``` reflects what's appended on ``` cat/mn
 
 ```# hwclock --systohc```
 
+
+### Set localization
+
+```# nvim /etc/locale.gen```
+
+And uncomment the UTF-8 section:
+
+```
+en...
+en_US.UTF..
+en_US ISO..
+...
+```
+
+Generate localization:
+
+```# locale-gen```
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
