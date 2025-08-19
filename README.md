@@ -10,6 +10,7 @@
    - Change root
    - Set timezone
    - Set localization 
+   - Set hostname
 
 ### Make Paritions
 
@@ -127,6 +128,14 @@ en_US ISO..
 Generate localization:
 
 ```# locale-gen```
+
+Create locale.conf
+
+```# nvim /etc/locale.conf```
+
+Add the following:
+
+```LANG=en_US.UTF-8```
 
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
