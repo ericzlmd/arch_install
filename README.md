@@ -1,6 +1,6 @@
 # Arch UEFI Install - July 2025
 
-## Table of Contents
+# Table of Contents
    - Make Partitions
    - Format Partitions
    - Mount File Systems
