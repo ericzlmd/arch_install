@@ -137,6 +137,10 @@ Add the following:
 
 ```LANG=en_US.UTF-8```
 
+### Set hostname
+
+```# echo "[hostname]" >> /etc/hostname```
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
