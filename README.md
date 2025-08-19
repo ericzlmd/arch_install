@@ -156,6 +156,16 @@ Enter new password twice:
 
 ```# passwd [username]```
 
+### Enable system servcies
+
+Network Manager, SDDM, fstrim
+
+```# systemctl enable NetworkManager```
+
+```# systemctl enable sddm```
+
+```# systemctl enable fstrim.timer```
+
 ### Reboot
 
 ```# exit```
