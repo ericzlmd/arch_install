@@ -104,6 +104,12 @@ Make sure that the entries on ```lsblk``` reflects what's appended on ``` cat/mn
 
 ```# arch-chroot /mnt```
 
+### Set localtime
+
+```# ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime```
+
+```# hwclock --systohc```
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
