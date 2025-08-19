@@ -13,6 +13,7 @@
    - Set hostname
    - Set root/user password
    - Enable system services on boot
+   - Reboot
 
 ### Make Paritions
 
