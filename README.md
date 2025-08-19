@@ -11,6 +11,7 @@
    - Set timezone
    - Set localization 
    - Set hostname
+   - Set root/user password
 
 ### Make Paritions
 
@@ -140,6 +141,20 @@ Add the following:
 ### Set hostname
 
 ```# echo "[hostname]" >> /etc/hostname```
+
+### Change root password
+
+Enter new password twice:
+
+```# passwd```
+
+### Add user
+
+```# useradd -m -G wheel,users [username]```
+
+### Change user password
+
+```# passwd [username]```
 
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
