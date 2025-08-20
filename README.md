@@ -15,7 +15,7 @@
    - Enable system services on boot
    - Reboot
 
-### Make Paritions
+## Make Paritions
 
 Use ```gdisk```
 
@@ -45,7 +45,7 @@ SWAP:
 
 Enter ```p``` to print all the partition made. Then ```w``` to write the partition on disk permanently.
 
-### Format Partitions
+## Format Partitions
 
 EFI:
 
@@ -64,7 +64,7 @@ SWAP:
 ```# mkfs.ext4 /dev/sda4```
 
 
-### Mount File Systems
+## Mount File Systems
 
 EFI:
 
@@ -87,35 +87,35 @@ SWAP:
 
 ```# mount /dev/sda4 /mnt/home```
 
-### Select Mirrors
+## Select Mirrors
 
 ```# reflector --country '[your country]' --sort rate --latest 5 >> /etc/pacman.d/mirrorlist```
 
 
-### Install base & essential packages
+## Install base & essential packages
 
 This section is mostly when you'll diverge and add your own most use apps, desktop environment, etc. The following below is mostly standard needed for other apps to be installed.
 
 ```# pacstrap -K /mnt base linux linux-firmware git base-devel networkmanager vi neovim efibootmgr```
 
-### Generate fstab
+## Generate fstab
 
 Make sure that the entries on ```lsblk``` reflects what's appended on ``` cat/mnt/etc/fstab```. Mount/re-mount partitions and edit manually if necessary.
 
 ```# genfstab -U /mnt >> /mnt/etc/fstab```
 
-### Change root
+## Change root
 
 ```# arch-chroot /mnt```
 
-### Set localtime
+## Set localtime
 
 ```# ln -sf /usr/share/zoneinfo/US/Eastern /etc/localtime```
 
 ```# hwclock --systohc```
 
 
-### Set localization
+## Set localization
 
 ```# nvim /etc/locale.gen```
 
@@ -140,25 +140,25 @@ Add the following:
 
 ```LANG=en_US.UTF-8```
 
-### Set hostname
+## Set hostname
 
 ```# echo "[hostname]" >> /etc/hostname```
 
-### Change root password
+## Change root password
 
 Enter new password twice:
 
 ```# passwd```
 
-### Add user
+## Add user
 
 ```# useradd -m -G wheel,users [username]```
 
-### Change user password
+## Change user password
 
 ```# passwd [username]```
 
-### Enable system servcies
+## Enable system servcies
 
 Network Manager, SDDM, fstrim
 
@@ -168,7 +168,7 @@ Network Manager, SDDM, fstrim
 
 ```# systemctl enable fstrim.timer```
 
-### Reboot
+## Reboot
 
 ```# exit```
 
