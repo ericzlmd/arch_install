@@ -13,6 +13,7 @@
    - Set hostname
    - Set root/user password
    - Enable system services on boot
+   - Install GRUB
    - Reboot
 
 ## Make Paritions
@@ -167,6 +168,16 @@ Network Manager, SDDM, fstrim
 ```# systemctl enable sddm```
 
 ```# systemctl enable fstrim.timer```
+
+## Install GRUB
+
+```# pacman -S grub efibootmgr```
+
+```# grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB```
+
+Generate GRUB config
+
+```# grub-mkconfig -o /boot/grub/grub.cfg```
 
 ## Reboot
 
