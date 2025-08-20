@@ -1,7 +1,7 @@
 # Arch UEFI Install - July 2025
 
 # Table of Contents
-   - Create Partitions
+   - [Create Partitions](#create-partions)
    - Format Partitions
    - Mount File Systems
    - Select Mirrors
@@ -16,7 +16,7 @@
    - Install GRUB
    - Reboot
 
-## Make Paritions
+## Create Partions
 
 Use ```gdisk```
 
