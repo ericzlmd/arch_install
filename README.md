@@ -190,6 +190,8 @@ Generate GRUB config
 
 ```# reboot```
 
+# Post Install
+
 # Credits
 - [Arch Linux](https://wiki.archlinux.org/title/Main_page)
 - [Bread on Penguins](https://www.youtube.com/@BreadOnPenguins)
