@@ -15,6 +15,7 @@
    - Enable system services on boot
    - Install GRUB
    - Reboot
+   - Post Install
 
 ## Create Partions
 
