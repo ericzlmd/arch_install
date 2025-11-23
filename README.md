@@ -31,17 +31,17 @@ EFI:
 
 SWAP:
    - [Enter] 2x
-   - Last Sector: +64G (equal to your RAM)
+   - Last Sector: +8G (equal to your RAM)
    - FS code: 8200
 
 /root:
    - [Enter] 2x
-   - Last Sector: +40G
+   - Last Sector: +60G
    - FS code: 8300 (or leave blank)
 
 /home:
    - [Enter] 2x
-   - Last Sector: (leave blank to use rest)
+   - Last Sector: (leave blank to use remaining disk space)
    - FS code: 8300 (or leave blank)
 
 Enter ```p``` to print all the partition made. Then ```w``` to write the partition on disk permanently.
