@@ -165,7 +165,7 @@ Enter new password twice:
 
 ## Enable system servcies
 
-Network Manager, SDDM, fstrim
+```# systemctl enable bluetooth.service```
 
 ```# systemctl enable NetworkManager```
 
