@@ -98,7 +98,7 @@ SWAP:
 
 This section is mostly when you'll diverge and add your own most use apps, desktop environment, etc. The following below is mostly standard needed for other apps to be installed.
 
-```# pacstrap -K /mnt base linux linux-firmware git base-devel networkmanager vi neovim efibootmgr```
+```# pacstrap -K /mnt base linux linux-firmware git base-devel networkmanager vi neovim efibootmgr pacman-contrib```
 
 Nvidia Drivers - Wayland
 ```nvidia-open nvidia-settings lib32-opencl-nvidia opencl-nvidia lib32-nvidia-utils nvidia-utils egl-wayland```
@@ -172,6 +172,8 @@ Enter new password twice:
 ```# systemctl enable sddm```
 
 ```# systemctl enable fstrim.timer```
+
+```# systemctl enable paccache.timer```
 
 ## Install GRUB
 
