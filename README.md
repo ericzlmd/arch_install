@@ -104,6 +104,8 @@ Nvidia Drivers - Wayland
 
 [NVIDIA 590 driver drops Pascal(GTX 10xx) and lower support; main packages switch to Open Kernel Modules](https://archlinux.org/news/nvidia-590-driver-drops-pascal-support-main-packages-switch-to-open-kernel-modules/)
 
+Recommended for newer Nvidia cards (RTX 30xx - 50xx)
+
 ```nvidia-open nvidia-settings lib32-opencl-nvidia opencl-nvidia lib32-nvidia-utils nvidia-utils egl-wayland```
 
 Apps
