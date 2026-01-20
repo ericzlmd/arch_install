@@ -102,6 +102,8 @@ This section is mostly when you'll diverge and add your own most use apps, deskt
 
 Nvidia Drivers - Wayland
 
+[NVIDIA 590 driver drops Pascal(GTX 10xx) and lower support; main packages switch to Open Kernel Modules](https://archlinux.org/news/nvidia-590-driver-drops-pascal-support-main-packages-switch-to-open-kernel-modules/)
+
 ```nvidia-open nvidia-settings lib32-opencl-nvidia opencl-nvidia lib32-nvidia-utils nvidia-utils egl-wayland```
 
 Apps
