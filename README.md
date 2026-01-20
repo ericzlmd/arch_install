@@ -101,12 +101,15 @@ This section is mostly when you'll diverge and add your own most use apps, deskt
 ```# pacstrap -K /mnt base linux linux-firmware git base-devel networkmanager vi neovim efibootmgr pacman-contrib```
 
 Nvidia Drivers - Wayland
+
 ```nvidia-open nvidia-settings lib32-opencl-nvidia opencl-nvidia lib32-nvidia-utils nvidia-utils egl-wayland```
 
 Apps
+
 ```konsole, dolphine firefox gwenview kwrite kcalc```
 
 Audio
+
 ```pipewire lib32-pipewire pipewire-alsa pipewire-pulse```
 
 ## Generate fstab
