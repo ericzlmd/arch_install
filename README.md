@@ -98,7 +98,7 @@ SWAP:
 
 This section is mostly when you'll diverge and add your own most use apps, desktop environment, etc. The following below is mostly standard needed for other apps to be installed.
 
-```# pacstrap -K /mnt base linux linux-firmware git base-devel networkmanager vi neovim efibootmgr pacman-contrib```
+```# pacstrap -K /mnt base linux linux-firmware git base-devel networkmanager vi neovim efibootmgr man-db man-pages pacman-contrib```
 
 Nvidia Drivers - Wayland
 
@@ -110,11 +110,15 @@ Recommended for newer Nvidia cards (RTX 30xx - 50xx)
 
 Apps
 
-```konsole, dolphine firefox gwenview kwrite kcalc```
+```konsole dolphine firefox gwenview kwrite kcalc```
 
 Audio
 
 ```pipewire lib32-pipewire pipewire-alsa pipewire-pulse```
+
+Fonts, missing fonts, emoji, etc.
+
+```noto-fonts-{cjk,emoji,extra} ttf-jetbrains-mono-nerd```
 
 ## Generate fstab
 
