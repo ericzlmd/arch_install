@@ -122,7 +122,7 @@ Fonts, missing fonts, emoji, etc.
 
 ## Generate fstab
 
-Make sure that the entries on ```lsblk``` reflects what's appended on ``` cat/mnt/etc/fstab```. Mount/re-mount partitions and edit manually if necessary.
+Make sure that the entries on ```lsblk``` reflects what is appended on ``` cat/mnt/etc/fstab```. Mount/re-mount partitions and edit manually if necessary.
 
 ```# genfstab -U /mnt >> /mnt/etc/fstab```
 
