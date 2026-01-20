@@ -106,6 +106,9 @@ Nvidia Drivers - Wayland
 Apps
 ```konsole, dolphine firefox gwenview kwrite kcalc```
 
+Audio
+```pipewire lib32-pipewire pipewire-alsa pipewire-pulse```
+
 ## Generate fstab
 
 Make sure that the entries on ```lsblk``` reflects what's appended on ``` cat/mnt/etc/fstab```. Mount/re-mount partitions and edit manually if necessary.
