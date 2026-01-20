@@ -103,6 +103,9 @@ This section is mostly when you'll diverge and add your own most use apps, deskt
 Nvidia Drivers - Wayland
 ```nvidia-open nvidia-settings lib32-opencl-nvidia opencl-nvidia lib32-nvidia-utils nvidia-utils egl-wayland```
 
+Apps
+```konsole, dolphine firefox gwenview kwrite kcalc```
+
 ## Generate fstab
 
 Make sure that the entries on ```lsblk``` reflects what's appended on ``` cat/mnt/etc/fstab```. Mount/re-mount partitions and edit manually if necessary.
