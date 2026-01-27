@@ -110,7 +110,7 @@ Recommended for newer Nvidia cards (RTX 30xx - 50xx)
 
 Apps
 
-```konsole dolphine firefox gwenview kwrite kcalc```
+```konsole dolphine firefox okular gwenview kwrite kcalc```
 
 Audio
 
