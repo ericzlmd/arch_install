@@ -198,7 +198,9 @@ Enter new password twice:
 
 ```# pacman -S grub efibootmgr```
 
-```# grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB```
+```# grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB --removble```
+
+Added ```--removable``` to make drive boot into different PC.
 
 Generate GRUB config
 
